@@ -7,3 +7,6 @@ elif ((number % 2 == 0) and (number in  range(2, 5))):
 
 elif ((number % 2 == 0) and (number in range (6, 20))):
     print("Weird")
+
+elif ((number % 2 == 0) and (number > 20)):
+    print("Not Weird")
